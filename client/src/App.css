@@ -1,0 +1,53 @@
+.todo
+{
+  display: flex;
+  align-items: center;
+ justify-content: space-between;
+
+}
+
+.todo-text
+{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+.button-group
+{
+  display: flex;
+  gap: 10px;
+}
+.button-group > button{
+  padding: 5px;
+  border-radius: 10px;
+  height: 40px;
+  width: 80px;
+  border: none;
+  color: white;
+}
+.add-todo
+{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+ align-items: center;
+  margin: 20px 0;
+}
+.add-todo > input
+{
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+ 
+}
+.add-todo > button
+{
+  padding: 5px;
+  border-radius: 10px;
+  height: 40px;
+  width: 80px;
+  border: none;
+  color: white;
+  background-color: green;
+}
